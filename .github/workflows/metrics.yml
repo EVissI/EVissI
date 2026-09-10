@@ -25,6 +25,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Moscow
+          config_padding: 8%, 0%      # без него нижняя строка ("Last updated…") обрезается
           plugins_errors_fatal: no
 
           plugin_languages: yes
