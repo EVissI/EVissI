@@ -97,19 +97,13 @@
   <img src="./github-metrics.svg" alt="GitHub metrics">
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=EVissI&theme=tokyonight&hide_border=true" alt="GitHub streak">
-</p>
-
 <!--
 github-metrics.svg генерит GitHub Action (.github/workflows/metrics.yml) раз в сутки
 и коммитит в репозиторий. Это статический файл — при просмотре профиля внешних
-запросов нет, поэтому он не попадает под rate limit публичных Vercel-читалок.
+запросов нет, поэтому он не лимитится.
 
-Первый рендер: добавь секрет METRICS_TOKEN (Settings → Secrets and variables →
-Actions), затем Actions → "GitHub Metrics" → Run workflow. До первого запуска
-картинка выше будет битой — это нормально.
-
-Стрик рисует streak-stats.demolab.com — внешний сервис, но стабильный.
+Стрик, языки и 3D-календарь контрибьюшнов уже внутри этой картинки.
+Обновить вручную: Actions → "GitHub Metrics" → Run workflow.
+Поменять состав: секции — параметр base, плагины — plugin_* в metrics.yml.
 -->
 
