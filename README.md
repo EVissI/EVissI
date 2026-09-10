@@ -94,16 +94,23 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=EVissI&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EVissI&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Top languages">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EVissI&theme=tokyonight" alt="GitHub profile summary">
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=EVissI&hide_border=true&theme=tokyonight" alt="GitHub streak">
+  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=EVissI&theme=tokyonight" alt="GitHub stats">
+  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=EVissI&theme=tokyonight" alt="Top languages by repo">
+</p>
+
+<p align="center">
+  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=EVissI&theme=tokyonight" alt="Most used languages by commits">
+  <img height="185" src="https://streak-stats.demolab.com/?user=EVissI&theme=tokyonight&hide_border=true" alt="GitHub streak">
 </p>
 
 <!--
-Темы карточек: поменяй theme=tokyonight на dark, radical, catppuccin_mocha, github_dark и т.д.
-Если карточки не грузятся (публичный инстанс лимитит) — разверни свой:
-https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own
+Темы: поменяй theme=tokyonight на radical, github_dark, nord_dark, gruvbox, monokai и т.д.
+Карточки stats/languages рендерит github-profile-summary-cards (свой публичный инстанс,
+менее нагружен, чем github-readme-stats). Стрик — streak-stats.demolab.com.
+Если и это начнёт лимитить — самый надёжный путь: GitHub Action, который кладёт
+статистику статичной картинкой в репозиторий (lowlighter/metrics).
 -->
