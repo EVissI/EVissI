@@ -94,23 +94,22 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=EVissI&theme=tokyonight" alt="GitHub profile summary">
+  <img src="./github-metrics.svg" alt="GitHub metrics">
 </p>
 
 <p align="center">
-  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=EVissI&theme=tokyonight" alt="GitHub stats">
-  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=EVissI&theme=tokyonight" alt="Top languages by repo">
-</p>
-
-<p align="center">
-  <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=EVissI&theme=tokyonight" alt="Most used languages by commits">
-  <img height="185" src="https://streak-stats.demolab.com/?user=EVissI&theme=tokyonight&hide_border=true" alt="GitHub streak">
+  <img src="https://streak-stats.demolab.com/?user=EVissI&theme=tokyonight&hide_border=true" alt="GitHub streak">
 </p>
 
 <!--
-Темы: поменяй theme=tokyonight на radical, github_dark, nord_dark, gruvbox, monokai и т.д.
-Карточки stats/languages рендерит github-profile-summary-cards (свой публичный инстанс,
-менее нагружен, чем github-readme-stats). Стрик — streak-stats.demolab.com.
-Если и это начнёт лимитить — самый надёжный путь: GitHub Action, который кладёт
-статистику статичной картинкой в репозиторий (lowlighter/metrics).
+github-metrics.svg генерит GitHub Action (.github/workflows/metrics.yml) раз в сутки
+и коммитит в репозиторий. Это статический файл — при просмотре профиля внешних
+запросов нет, поэтому он не попадает под rate limit публичных Vercel-читалок.
+
+Первый рендер: добавь секрет METRICS_TOKEN (Settings → Secrets and variables →
+Actions), затем Actions → "GitHub Metrics" → Run workflow. До первого запуска
+картинка выше будет битой — это нормально.
+
+Стрик рисует streak-stats.demolab.com — внешний сервис, но стабильный.
 -->
+
